@@ -1,11 +1,13 @@
-import './App.css';
-import adminDashboard from './Page/adminDashboard';
+import "./styles/styles.css";
+import "./styles/main.css";
+import Sidebar from './Components/Sidebar';
+
 
 function App() {
   return (
-  <>
-    <adminDashboard/>
-  </>
+  <div className="App">
+    <Sidebar />
+  </div>
   );
 }
 
